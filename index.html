@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Conceptos Básicos de Computación</title>
+    <!-- Incluir Tailwind CSS para un diseño moderno y responsive -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            @apply bg-gray-100 text-gray-800;
+        }
+        .container {
+            @apply max-w-4xl mx-auto p-4 md:p-8 bg-white shadow-xl rounded-2xl my-8;
+        }
+        h1 {
+            @apply text-3xl md:text-4xl font-bold text-center mb-6 text-indigo-700;
+        }
+        h2 {
+            @apply text-2xl md:text-3xl font-semibold mt-8 mb-4 border-b-2 pb-2 border-indigo-200 text-indigo-600;
+        }
+        p {
+            @apply text-lg leading-relaxed mb-4;
+        }
+        .image-placeholder {
+            @apply w-full h-auto rounded-lg shadow-md my-4 border-2 border-gray-200;
+        }
+        .section-content {
+            @apply mb-10;
+        }
+        .list-item {
+            @apply text-lg mb-2;
+        }
+        .key-box {
+            @apply inline-block bg-gray-200 text-gray-800 font-bold px-3 py-1 rounded-md text-sm;
+        }
+        .copy-paste-container {
+            @apply flex flex-col md:flex-row gap-8;
+        }
+        .copy-paste-method {
+            @apply bg-gray-50 p-6 rounded-xl shadow-inner flex-1;
+        }
+        .key-list li {
+            @apply my-2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Guía de Conceptos Básicos de Computación</h1>
+        <p class="text-center text-gray-600 mb-8">
+            ¡Bienvenido a esta guía! Aquí aprenderás los conceptos más importantes para usar tu computadora.
+        </p>
+
+        <!-- Sección: Descargar un archivo -->
+        <div class="section-content">
+            <h2>¿Cómo descargar un archivo?</h2>
+            <p>
+                Descargar un archivo es como guardar algo de Internet en tu computadora. Puede ser un documento, una imagen, un video, o un programa.
+            </p>
+            <p><strong>Pasos:</strong></p>
+            <ol class="list-decimal list-inside pl-4">
+                <li class="list-item"><strong>Encuentra el enlace:</strong> Busca un enlace o un botón que diga "Descargar", "Download" o tenga el icono de una flecha hacia abajo.</li>
+                <li class="list-item"><strong>Haz clic:</strong> Simplemente haz clic en ese enlace o botón.</li>
+                <li class="list-item"><strong>Guarda el archivo:</strong> Tu navegador te preguntará dónde quieres guardar el archivo. Puedes elegir una ubicación como el Escritorio o la carpeta de Descargas.</li>
+            </ol>
+            <img src="./Gemini_Generated_Image_upm3utupm3utupm3.png" alt="Imagen de un navegador mostrando el cuadro de diálogo para guardar un archivo descargado." class="image-placeholder">
+        </div>
+
+        <!-- Sección: Comprimir y Descomprimir -->
+        <div class="section-content">
+            <h2>Comprimir y descomprimir archivos</h2>
+            <p>
+                <strong>Comprimir</strong> es hacer un archivo o carpeta más pequeño, como si lo metieras en una caja. Esto es útil para enviar varios archivos juntos o para ahorrar espacio. <strong>Descomprimir</strong> es el proceso inverso, es sacar el contenido de esa "caja".
+            </p>
+            <h3>¿Cómo comprimir un archivo o carpeta?</h3>
+            <p><strong>Pasos:</strong></p>
+            <ol class="list-decimal list-inside pl-4">
+                <li class="list-item"><strong>Selecciona:</strong> Haz clic derecho en el archivo o carpeta que quieres comprimir.</li>
+                <li class="list-item"><strong>Elige la opción:</strong> En el menú que aparece, busca una opción como "Enviar a" y luego "Carpeta comprimida (en zip)".</li>
+                <li class="list-item"><strong>Listo:</strong> Se creará un nuevo archivo con un ícono de cremallera o una pila de libros, con el mismo nombre y la extensión <strong>.zip</strong>.</li>
+            </ol>
+            <img src="./Gemini_Generated_Image_ovqxs7ovqxs7ovqx.png" alt="Imagen del menú contextual de Windows con la opción 'Enviar a > Carpeta comprimida (en zip)' resaltada." class="image-placeholder">
+            
+            <h3>¿Cómo descomprimir un archivo?</h3>
+            <p><strong>Pasos:</strong></p>
+            <ol class="list-decimal list-inside pl-4">
+                <li class="list-item"><strong>Selecciona:</strong> Haz clic derecho en el archivo comprimido (que tiene la extensión .zip).</li>
+                <li class="list-item"><strong>Elige la opción:</strong> En el menú, busca y haz clic en "Extraer todo..." o "Extract All...".</li>
+                <li class="list-item"><strong>Elige la ubicación:</strong> Te preguntará dónde quieres guardar los archivos. Elige una carpeta y haz clic en "Extraer".</li>
+            </ol>
+            <img src="./Gemini_Generated_Image_g02rh9g02rh9g02r.png" alt="Imagen de una ventana de Windows para extraer archivos de una carpeta comprimida." class="image-placeholder">
+        </div>
+
+        <!-- Sección: Programas -->
+        <div class="section-content">
+            <h2>Programas: buscar, instalar y ejecutar</h2>
+            <h3>¿Cómo busco un programa?</h3>
+            <p>
+                Para encontrar un programa que ya tienes en tu computadora, usa la barra de búsqueda en el menú de inicio (botón de Windows). Simplemente haz clic y empieza a escribir el nombre del programa.
+            </p>
+            <img src="./Gemini_Generated_Image_46ptr646ptr646pt.png" alt="Imagen del menú de inicio de Windows mostrando la barra de búsqueda." class="image-placeholder">
+
+            <h3>¿Cómo instalar un programa?</h3>
+            <p>
+                La mayoría de los programas se instalan con un archivo especial, generalmente con la extensión <strong>.exe</strong> o <strong>.msi</strong>.
+            </p>
+            <p><strong>Pasos:</strong></p>
+            <ol class="list-decimal list-inside pl-4">
+                <li class="list-item"><strong>Ejecuta el instalador:</strong> Haz doble clic en el archivo de instalación que descargaste.</li>
+                <li class="list-item"><strong>Sigue los pasos:</strong> Lee y sigue las instrucciones en pantalla. A menudo tendrás que hacer clic en "Siguiente", "Aceptar" y "Finalizar".</li>
+            </ol>
+            <img src="./Gemini_Generated_Image_t8rnbwt8rnbwt8rn.png" alt="Imagen de una ventana de instalación típica de un programa." class="image-placeholder">
+
+            <h3>¿Cómo ejecuto un programa?</h3>
+            <p>
+                Una vez instalado, hay varias formas de abrir un programa:
+            </p>
+            <ul class="list-disc list-inside pl-4">
+                <li class="list-item"><strong>Desde el Escritorio:</strong> Busca un icono en tu escritorio y haz doble clic en él.</li>
+                <li class="list-item"><strong>Desde el Menú de Inicio:</strong> Haz clic en el botón de inicio de Windows y busca el programa en la lista. Haz clic para abrirlo.</li>
+                <li class="list-item"><strong>Desde la Barra de Tareas:</strong> Si el programa está anclado a la barra de tareas en la parte inferior de la pantalla, haz clic en su icono una sola vez.</li>
+            </ul>
+        </div>
+
+        <!-- Sección: Uso del teclado -->
+        <div class="section-content">
+            <h2>Uso del teclado</h2>
+            <p>
+                El teclado tiene teclas especiales que te ayudan a hacer más cosas. Aquí tienes las más comunes:
+            </p>
+            <ul class="list-disc list-inside pl-4 key-list">
+                <li class="list-item"><span class="key-box">Mayúscula (Shift)</span>: Se usa para escribir letras mayúsculas o para usar los símbolos que están encima de los números.</li>
+                <li class="list-item"><span class="key-box">Enter</span>: Se usa para confirmar algo, ir a la siguiente línea en un texto o enviar un formulario.</li>
+                <li class="list-item"><span class="key-box">Barra espaciadora</span>: Crea un espacio en blanco entre palabras o letras.</li>
+                <li class="list-item"><span class="key-box">Suprimir (Del)</span> / <span class="key-box">Retroceso (Backspace)</span>: Se usan para borrar. "Retroceso" borra lo que está a la izquierda del cursor. "Suprimir" borra lo que está a la derecha.</li>
+                <li class="list-item"><span class="key-box">Control (Ctrl)</span>: Una tecla de "acción". Se usa con otras teclas para hacer atajos, como <span class="key-box">Ctrl + C</span> para copiar.</li>
+                <li class="list-item"><span class="key-box">Tabulación (Tab)</span>: Mueve el cursor un espacio largo hacia la derecha, como para alinear texto. En formularios, te lleva al siguiente campo.</li>
+                <li class="list-item"><span class="key-box">Escape (Esc)</span>: Se usa para cancelar una acción, cerrar una ventana o salir de un programa a pantalla completa.</li>
+            </ul>
+            <img src="./Gemini_Generated_Image_vovcs9vovcs9vovc.png" alt="Imagen de un teclado con las teclas de función principales resaltadas." class="image-placeholder">
+        </div>
+
+        <!-- Sección: Copiar y pegar -->
+        <div class="section-content">
+            <h2>Copiar y pegar</h2>
+            <p>
+                Copiar es hacer una copia de un archivo, carpeta o texto. Pegar es poner esa copia en otro lugar.
+            </p>
+            <div class="copy-paste-container">
+                <div class="copy-paste-method">
+                    <h3>Método 1: Clic derecho</h3>
+                    <p><strong>Para copiar:</strong></p>
+                    <ol class="list-decimal list-inside pl-4">
+                        <li class="list-item">Haz clic derecho en lo que quieres copiar.</li>
+                        <li class="list-item">Selecciona "Copiar" en el menú.</li>
+                    </ol>
+                    <p><strong>Para pegar:</strong></p>
+                    <ol class="list-decimal list-inside pl-4">
+                        <li class="list-item">Ve a la carpeta donde quieres poner la copia.</li>
+                        <li class="list-item">Haz clic derecho en un espacio vacío.</li>
+                        <li class="list-item">Selecciona "Pegar" en el menú.</li>
+                    </ol>
+                </div>
+                <div class="copy-paste-method">
+                    <h3>Método 2: Atajos de teclado</h3>
+                    <p><strong>Para copiar:</strong></p>
+                    <ul class="list-disc list-inside pl-4">
+                        <li class="list-item">Selecciona el archivo.</li>
+                        <li class="list-item">Presiona <span class="key-box">Ctrl + C</span> al mismo tiempo.</li>
+                    </ul>
+                    <p><strong>Para pegar:</strong></p>
+                    <ul class="list-disc list-inside pl-4">
+                        <li class="list-item">Ve a la carpeta donde quieres la copia.</li>
+                        <li class="list-item">Presiona <span class="key-box">Ctrl + V</span> al mismo tiempo.</li>
+                    </ul>
+                    <img src="./Gemini_Generated_Image_1azjth1azjth1azj.png" alt="Imagen de un teclado con las teclas Ctrl, C y V resaltadas." class="image-placeholder">
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección: Explorador de Archivos -->
+        <div class="section-content">
+            <h2>El Explorador de Archivos</h2>
+            <p>
+                El Explorador de Archivos es como tu oficina virtual. Es el lugar donde encuentras y organizas todos los archivos y carpetas en tu computadora.
+            </p>
+            <h3>¿Cómo abrirlo?</h3>
+            <p>
+                Puedes hacer clic en el icono de la carpeta amarilla en la barra de tareas o presionar la tecla de Windows y la letra <span class="key-box">E</span> al mismo tiempo.
+            </p>
+            <img src="./Gemini_Generated_Image_r84qyrr84qyrr84q.png" alt="Imagen de la ventana del Explorador de Archivos de Windows." class="image-placeholder">
+
+            <h3>Funciones básicas:</h3>
+            <ul class="list-disc list-inside pl-4">
+                <li class="list-item"><strong>Navegar:</strong> Haz doble clic en una carpeta para abrirla y ver su contenido. Usa las flechas de "atrás" y "adelante" en la parte superior para moverte entre las carpetas que has visitado.</li>
+                <li class="list-item"><strong>Crear carpetas:</strong> Haz clic derecho en un espacio vacío, selecciona "Nuevo" y luego "Carpeta".</li>
+                <li class="list-item"><strong>Mover archivos:</strong> Arrastra un archivo desde una carpeta a otra para moverlo.</li>
+            </ul>
+        </div>
+
+        <!-- Sección: Uso del ratón -->
+        <div class="section-content">
+            <h2>Uso del ratón</h2>
+            <p>
+                El ratón te permite interactuar con todo lo que ves en la pantalla.
+            </p>
+            <ul class="list-disc list-inside pl-4">
+                <li class="list-item"><strong>Botón izquierdo:</strong> Es el botón principal. Se usa para seleccionar, abrir archivos o programas (haciendo doble clic) y para arrastrar objetos.</li>
+                <li class="list-item"><strong>Botón derecho:</strong> Cuando haces clic derecho, se abre un menú con opciones adicionales que puedes aplicar al objeto seleccionado.</li>
+                <li class="list-item"><strong>Rueda de desplazamiento (Scroll):</strong> Se usa para subir y bajar en una página web o documento de forma rápida y sencilla.</li>
+            </ul>
+            <img src="./Gemini_Generated_Image_yb1cdcyb1cdcyb1c.png" alt="Imagen de un ratón con los botones izquierdo y derecho y la rueda de desplazamiento señalados." class="image-placeholder">
+        </div>
+
+    </div>
+
+</body>
+</html>
